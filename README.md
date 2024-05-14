@@ -14,8 +14,8 @@ I created this project to manage partitions locally within a folder. The idea is
 ### Installation
 Clone the repository and navigate to the project directory:
 ```bash
-git clone <repository_url>
-cd <project_directory>
+git clone https://github.com/dev-nolant/partition-manager-dev.git
+cd partition-manager-dev
 ```
 
 ### Usage Example
