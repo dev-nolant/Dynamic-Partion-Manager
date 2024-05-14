@@ -21,3 +21,6 @@ partManager = PartitionManager()
 partManager.modifyPartition("testUser", bytemanager.ByteDetection("1gb"), "SIZETO")
 ```
 
+# External Usage
+
+If you plan to implement this into your program, all I ask is for a comment with a note of contribution in your code at the top or near the implementation and for you to make an "Issue" with a link to your code! I want to see the cool implementations you can create.
