@@ -13,15 +13,15 @@ I created this project to manage partitions locally within a folder. The idea is
 
 ### Installation
 Clone the repository and navigate to the project directory:
-\```bash
+```bash
 git clone <repository_url>
 cd <project_directory>
-\```
+```
 
 ### Usage Example
 Here's a simple example to demonstrate how to use the `PartitionManager` and `BytesManager` classes:
 
-\```python
+```python
 from PartitionManager import PartitionManager
 from BytesConverter import BytesManager
 
@@ -31,7 +31,7 @@ partManager = PartitionManager()
 
 # Modify a partition
 partManager.modifyPartition("testUser", bytemanager.ByteDetection("1gb"), "SIZETO")
-\```
+```
 
 ### External Usage
 If you plan to implement this project into your program, please add a comment noting the contribution and create an "Issue" with a link to your code. I'd love to see the cool implementations you create!
