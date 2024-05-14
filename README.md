@@ -1,7 +1,3 @@
-# partition-manager-dev
-A simple partition generator and manager with setup script and log handler.
-
-
 # This is an experiment.
 I wanted to work with handmade partitions that would work locally within a folder, so users could reserve space for their personal servers.
 It isn't completed to intended use (yet), and isn't promised to be in the near future, as I've moved onto Embedded Systems and Rust Development.
