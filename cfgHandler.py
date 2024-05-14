@@ -67,7 +67,7 @@ class ConfigHandler:
     def setupDefault(default_partition_allocated_space:str):
 
         import os
-        from BM import BytesManager
+        from BytesConverter import BytesManager
         import math
         
         byteManager = BytesManager()

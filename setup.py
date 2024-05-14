@@ -3,7 +3,7 @@ from DBHandler import  UserDatabase
 
 from log_handler import loghandle
 
-from BM import BytesManager
+from BytesConverter import BytesManager
 import os
 
 byteManager = BytesManager()
@@ -29,7 +29,7 @@ if cloud == True:
     test_user = input("Create Test User? (y/n): ")
     test_user = test_user.lower()
     
-    from PM import PartitionManager
+    from PartitionManager import PartitionManager
     partManager = PartitionManager()
     match test_user:
         case "y":

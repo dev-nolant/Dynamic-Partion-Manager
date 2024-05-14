@@ -1,5 +1,5 @@
-from PM import PartitionManager, PartitionFinder
-from BM import BytesManager
+from PartitionManager import PartitionManager, PartitionFinder
+from BytesConverter import BytesManager
 
 partManager = PartitionManager()
 
