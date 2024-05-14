@@ -1,5 +1,5 @@
 # This is an experiment.
-I wanted to work with handmade partitions that would work locally within a folder, so users could reserve space for their personal servers.
+I wanted to work with handmade partitions that would work locally within a folder, so users could reserve space for their personal servers with organization.
 It isn't completed to intended use (yet), and isn't promised to be in the near future, as I've moved onto Embedded Systems and Rust Development.
 
 This project was created to use very little to no external imports (PIP required imports). So users could easily transfer onto their system and run from factory.
