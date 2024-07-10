@@ -1,5 +1,5 @@
 
-# 📂 Handmade Partitions Manager
+# 📂 WORK IN PROGRESS. This is in Alpha, and is being updated regularly.
 
 ## Overview
 I created this project to manage partitions locally within a folder. The idea is to help users reserve space for their personal servers with proper organization. Although the project is not fully complete and might not reach the intended use in the near future (as I've shifted my focus to Embedded Systems and Rust Development), it still offers a functional foundation for managing partitions.
