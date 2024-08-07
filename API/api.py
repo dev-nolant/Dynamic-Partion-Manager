@@ -21,6 +21,8 @@ from dotenv import load_dotenv  # type: ignore
 load_dotenv()
 
 
+LOGGING_ENABLED = True
+
 # Setup logging
 if not os.path.exists('logs'):
     os.makedirs('logs')
@@ -29,8 +31,8 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('logs/app.log'),
-        logging.StreamHandler()
+        logging.FileHandler('logs/app.log') if LOGGING_ENABLED else logging.NullHandler(),
+        logging.StreamHandler() if LOGGING_ENABLED else logging.NullHandler()
     ]
 )
 logger = logging.getLogger(__name__)
