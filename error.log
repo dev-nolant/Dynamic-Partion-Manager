@@ -1,0 +1,11 @@
+2024-08-06 22:04:39,124 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-06 22:04:39,125 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-08-06 22:04:39,126 - werkzeug - INFO -  * Restarting with stat
+2024-08-06 22:04:39,659 - werkzeug - WARNING -  * Debugger is active!
+2024-08-06 22:04:39,662 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-08-06 22:05:03,370 - Handler.DBHandler - INFO - Retrieved user with API key 10f3fde88b8b730ce28beb66ac3d90e6da114101
+2024-08-06 22:05:03,372 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\testUser\message.txt.enc for user testUser not found
+2024-08-06 22:05:04,259 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\testUser\message.txt.enc for user testUser
+2024-08-06 22:05:04,476 - Handler.DBHandler - INFO - Updated used space for user testUser to 5516
+2024-08-06 22:05:04,476 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 22:05:04] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -

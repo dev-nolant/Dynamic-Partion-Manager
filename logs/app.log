@@ -1,0 +1,477 @@
+2024-07-01 00:10:21,261 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-01 00:10:21,261 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-01 00:10:21,262 - werkzeug - INFO -  * Restarting with stat
+2024-07-01 00:10:21,780 - werkzeug - WARNING -  * Debugger is active!
+2024-07-01 00:10:21,782 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-01 00:10:59,584 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:10:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-01 00:11:00,549 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:11:00] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-07-01 00:11:00,767 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:11:00] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-07-01 00:11:01,699 - Handler.DBHandler - WARNING - User dev-nolant not found
+2024-07-01 00:11:01,815 - Handler.DBHandler - ERROR - Integrity error adding user dev-nolant: UNIQUE constraint failed: users.user_key
+2024-07-01 00:11:01,817 - API.api - INFO - Partition Created
+2024-07-01 00:11:02,818 - Handler.DBHandler - INFO - Retrieved user dev-nolant
+2024-07-01 00:11:02,818 - API.api - INFO - User dev-nolant retrieved successfully after creation
+2024-07-01 00:11:02,819 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:11:02] "GET /login/authorized?code=77d7410befc7c89f72f9 HTTP/1.1" 200 -
+2024-07-01 00:11:14,764 - Handler.DBHandler - INFO - Retrieved user with API key 7a220404cbb58f72e09afbd3bb894860e0d8c736
+2024-07-01 00:11:14,767 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant not found
+2024-07-01 00:11:14,900 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-01 00:11:14,988 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 558752
+2024-07-01 00:11:15,122 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 558752
+2024-07-01 00:11:15,122 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:11:15] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-01 00:11:26,411 - Handler.DBHandler - INFO - Retrieved user with API key 7a220404cbb58f72e09afbd3bb894860e0d8c736
+2024-07-01 00:11:26,413 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-01 00:11:26,647 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-01 00:11:26,703 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 558752
+2024-07-01 00:11:26,830 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 558752
+2024-07-01 00:11:26,831 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:11:26] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-01 00:11:37,515 - Handler.DBHandler - INFO - Retrieved user with API key 7a220404cbb58f72e09afbd3bb894860e0d8c736
+2024-07-01 00:11:37,518 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-01 00:11:37,743 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-01 00:11:37,800 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 558752
+2024-07-01 00:11:37,902 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 558752
+2024-07-01 00:11:37,902 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:11:37] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-01 00:11:51,764 - Handler.DBHandler - INFO - Retrieved user with API key 7a220404cbb58f72e09afbd3bb894860e0d8c736
+2024-07-01 00:11:51,765 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\swag.png.enc for user dev-nolant not found
+2024-07-01 00:11:51,855 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\swag.png.enc for user dev-nolant
+2024-07-01 00:11:51,907 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 566580
+2024-07-01 00:11:52,038 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 566580
+2024-07-01 00:11:52,038 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:11:52] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-01 00:12:12,727 - Handler.DBHandler - INFO - Retrieved user with API key 7a220404cbb58f72e09afbd3bb894860e0d8c736
+2024-07-01 00:12:12,728 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\swag.png.enc for user dev-nolant
+2024-07-01 00:12:12,864 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\swag.png.enc for user dev-nolant
+2024-07-01 00:12:12,915 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 566580
+2024-07-01 00:12:13,031 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 566580
+2024-07-01 00:12:13,031 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:12:13] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-01 00:12:19,481 - Handler.DBHandler - INFO - Retrieved user with API key 7a220404cbb58f72e09afbd3bb894860e0d8c736
+2024-07-01 00:12:19,484 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-01 00:12:19,836 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-01 00:12:19,894 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 566580
+2024-07-01 00:12:20,029 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 566580
+2024-07-01 00:12:20,029 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:12:20] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-01 00:12:51,131 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:12:51] "[31m[1mGET /download/swag.png HTTP/1.1[0m" 401 -
+2024-07-01 00:13:53,383 - Handler.DBHandler - INFO - Retrieved user with API key 7a220404cbb58f72e09afbd3bb894860e0d8c736
+2024-07-01 00:13:53,480 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:13:53] "GET /download/landingpage.png HTTP/1.1" 200 -
+2024-07-01 00:14:34,845 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-07-01 00:14:34,937 - werkzeug - INFO -  * Restarting with stat
+2024-07-01 00:14:35,507 - werkzeug - WARNING -  * Debugger is active!
+2024-07-01 00:14:35,508 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-01 00:25:37,056 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-01 00:25:37,056 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-01 00:25:37,057 - werkzeug - INFO -  * Restarting with stat
+2024-07-01 00:25:37,583 - werkzeug - WARNING -  * Debugger is active!
+2024-07-01 00:25:37,584 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-01 00:25:50,982 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:25:50] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-07-01 00:25:51,276 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:25:51] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-07-01 00:25:52,192 - Handler.DBHandler - WARNING - User dev-nolant not found
+2024-07-01 00:25:52,330 - Handler.DBHandler - ERROR - Integrity error adding user dev-nolant: UNIQUE constraint failed: users.user_key
+2024-07-01 00:25:52,334 - API.api - INFO - Partition Created
+2024-07-01 00:25:53,334 - Handler.DBHandler - INFO - Retrieved user dev-nolant
+2024-07-01 00:25:53,334 - API.api - INFO - User dev-nolant retrieved successfully after creation
+2024-07-01 00:25:53,335 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:25:53] "GET /login/authorized?code=72b866363f85217d1549 HTTP/1.1" 200 -
+2024-07-01 00:26:26,348 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:26:26] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-07-01 00:26:26,566 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:26:26] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-07-01 00:26:27,574 - Handler.DBHandler - INFO - Retrieved user dev-nolant
+2024-07-01 00:26:27,575 - werkzeug - INFO - 127.0.0.1 - - [01/Jul/2024 00:26:27] "GET /login/authorized?code=92d7653d42332129afe1 HTTP/1.1" 200 -
+2024-07-01 00:26:37,803 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-07-01 00:26:37,864 - werkzeug - INFO -  * Restarting with stat
+2024-07-01 00:26:38,430 - werkzeug - WARNING -  * Debugger is active!
+2024-07-01 00:26:38,433 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-01 00:28:01,855 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-01 00:28:01,855 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-01 00:28:01,856 - werkzeug - INFO -  * Restarting with stat
+2024-07-01 00:28:02,375 - werkzeug - WARNING -  * Debugger is active!
+2024-07-01 00:28:02,377 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:01:50,473 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-05 20:01:50,473 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-05 20:01:50,480 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:01:51,031 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:01:51,032 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:02:07,045 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:02:07] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-07-05 20:02:07,602 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:02:07] "GET /login/authorized?error=redirect_uri_mismatch&error_description=The+redirect_uri+MUST+match+the+registered+callback+URL+for+this+application.&error_uri=https%3A%2F%2Fdocs.github.com%2Fapps%2Fmanaging-oauth-apps%2Ftroubleshooting-authorization-request-errors%2F%23redirect-uri-mismatch HTTP/1.1" 200 -
+2024-07-05 20:02:07,864 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:02:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-05 20:02:15,798 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:02:15] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-07-05 20:02:16,699 - Handler.DBHandler - WARNING - User dev-nolant not found
+2024-07-05 20:02:17,029 - Handler.DBHandler - ERROR - Integrity error adding user dev-nolant: UNIQUE constraint failed: users.user_key
+2024-07-05 20:02:17,040 - API.api - INFO - Partition Created
+2024-07-05 20:02:18,041 - Handler.DBHandler - INFO - Retrieved user dev-nolant
+2024-07-05 20:02:18,041 - API.api - INFO - User dev-nolant retrieved successfully after creation
+2024-07-05 20:02:18,041 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:02:18] "GET /login/authorized?code=b57b9488fdcbfe2dd0c5 HTTP/1.1" 200 -
+2024-07-05 20:02:39,793 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-07-05 20:02:39,869 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:02:41,591 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:02:41,592 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:02:44,540 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:02:44,550 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant not found
+2024-07-05 20:02:44,698 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:02:44,943 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 558752
+2024-07-05 20:02:45,069 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 558752
+2024-07-05 20:02:45,070 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:02:45] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:03:05,163 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:03:05,167 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:03:05,303 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:03:05,361 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 558752
+2024-07-05 20:03:05,479 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 558752
+2024-07-05 20:03:05,479 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:03:05] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:03:06,702 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:03:06,705 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:03:06,816 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:03:06,872 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 558752
+2024-07-05 20:03:06,987 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 558752
+2024-07-05 20:03:06,987 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:03:06] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:04:25,914 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:04:25,916 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:04:26,081 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:04:26,138 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 48925
+2024-07-05 20:04:26,231 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 48925
+2024-07-05 20:04:26,231 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:04:26] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:04:53,684 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:04:53,688 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant not found
+2024-07-05 20:04:53,822 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:04:53,879 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 607677
+2024-07-05 20:04:53,975 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 607677
+2024-07-05 20:04:53,976 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:04:53] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:07:28,327 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-07-05 20:07:28,396 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:07:28,953 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:07:28,955 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:07:32,881 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:07:32,883 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:07:33,596 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:07:33,682 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 607677
+2024-07-05 20:07:33,790 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 607677
+2024-07-05 20:07:33,791 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:07:33] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:07:37,497 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:07:37,499 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:07:38,210 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:07:38,266 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 607677
+2024-07-05 20:07:38,363 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 607677
+2024-07-05 20:07:38,364 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:07:38] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:08:04,215 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:08:04,216 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:08:04,363 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:08:04,417 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 97850
+2024-07-05 20:08:04,518 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 97850
+2024-07-05 20:08:04,518 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:08:04] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:08:16,711 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:08:16,713 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:08:16,867 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:08:16,923 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 607677
+2024-07-05 20:08:17,038 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 607677
+2024-07-05 20:08:17,039 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:08:17] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:09:25,764 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:09:25,767 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:09:25,918 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:09:25,974 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 607677
+2024-07-05 20:09:26,088 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 607677
+2024-07-05 20:09:26,089 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:09:26] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:09:42,881 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-07-05 20:09:42,942 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:09:43,489 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:09:43,490 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:09:47,405 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:09:47,408 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:09:47,656 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:09:47,835 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 607677
+2024-07-05 20:09:47,943 - Handler.DBHandler - INFO - Updated allocated space for user dev-nolant to 607677
+2024-07-05 20:09:47,944 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:09:47] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:09:54,370 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:09:54,372 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:09:54,691 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:09:54,828 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 607677
+2024-07-05 20:09:54,831 - Handler.DBHandler - INFO - Updated allocated space for user dev-nolant to 607677
+2024-07-05 20:09:54,832 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:09:54] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:10:03,343 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:10:03,344 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:10:03,751 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:10:04,631 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 97850
+2024-07-05 20:10:04,979 - Handler.DBHandler - INFO - Updated allocated space for user dev-nolant to 97850
+2024-07-05 20:10:04,979 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:10:04] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:10:41,020 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:10:41,021 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:10:41,162 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:10:41,316 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 97850
+2024-07-05 20:10:41,319 - Handler.DBHandler - INFO - Updated allocated space for user dev-nolant to 97850
+2024-07-05 20:10:41,319 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:10:41] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:10:42,474 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:10:42,476 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:10:42,588 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:10:42,762 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 97850
+2024-07-05 20:10:42,764 - Handler.DBHandler - INFO - Updated allocated space for user dev-nolant to 97850
+2024-07-05 20:10:42,764 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:10:42] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:10:51,033 - Handler.DBHandler - INFO - Retrieved user with API key 03569813e4f173290e24778f8f2331344ed2c646
+2024-07-05 20:10:51,036 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:10:51,172 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:10:51,172 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:10:51] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2024-07-05 20:12:54,566 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-07-05 20:12:54,636 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:12:55,193 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:12:55,194 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:14:04,615 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-05 20:14:04,616 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-05 20:14:04,617 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:14:05,126 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:14:05,128 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:14:09,285 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:14:09] "[35m[1mGET /login/authorized?code=b57b9488fdcbfe2dd0c5 HTTP/1.1[0m" 500 -
+2024-07-05 20:14:09,406 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:14:09] "[36mGET /login/authorized?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-07-05 20:14:09,464 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:14:09] "[36mGET /login/authorized?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-07-05 20:14:09,803 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:14:09] "[36mGET /login/authorized?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-05 20:14:13,790 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:14:13] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-07-05 20:14:14,643 - Handler.DBHandler - WARNING - User dev-nolant not found
+2024-07-05 20:14:14,799 - Handler.DBHandler - ERROR - Integrity error adding user dev-nolant: UNIQUE constraint failed: users.user_key
+2024-07-05 20:14:14,800 - API.api - INFO - Partition Created
+2024-07-05 20:14:15,801 - Handler.DBHandler - INFO - Retrieved user dev-nolant
+2024-07-05 20:14:15,801 - API.api - INFO - User dev-nolant retrieved successfully after creation
+2024-07-05 20:14:15,801 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:14:15] "GET /login/authorized?code=c6de12d323ec59af0f4c HTTP/1.1" 200 -
+2024-07-05 20:14:27,973 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-07-05 20:14:28,030 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:14:28,578 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:14:28,579 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:14:34,159 - Handler.DBHandler - INFO - Retrieved user with API key c50f636632e13a7ccd3df25f56a1e2a13971586c
+2024-07-05 20:14:34,160 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant not found
+2024-07-05 20:14:41,917 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:14:45,428 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 48925
+2024-07-05 20:14:45,545 - Handler.DBHandler - INFO - Updated allocated space for user dev-nolant to 48925
+2024-07-05 20:14:45,545 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:14:45] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:14:55,132 - Handler.DBHandler - INFO - Retrieved user with API key c50f636632e13a7ccd3df25f56a1e2a13971586c
+2024-07-05 20:14:55,134 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:14:56,946 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:14:57,192 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 48925
+2024-07-05 20:14:57,435 - Handler.DBHandler - INFO - Updated allocated space for user dev-nolant to 48925
+2024-07-05 20:14:57,436 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:14:57] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:15:59,018 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-05 20:15:59,448 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-05 20:15:59,450 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:15:59,987 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:15:59,989 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:16:19,110 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-07-05 20:16:19,176 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:16:20,008 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:16:20,010 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:16:32,040 - Handler.DBHandler - INFO - Retrieved user with API key f5f7e08ed744e6bfb9b49154cfee204b0c14982a
+2024-07-05 20:16:32,042 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\testUser\landingpage.png.enc for user testUser not found
+2024-07-05 20:16:34,437 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\testUser\landingpage.png.enc for user testUser
+2024-07-05 20:16:36,275 - Handler.DBHandler - INFO - Updated used space for user testUser to 48925
+2024-07-05 20:16:37,052 - Handler.DBHandler - INFO - Updated allocated space for user testUser to 48925
+2024-07-05 20:16:37,055 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:16:37] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:16:41,508 - Handler.DBHandler - INFO - Retrieved user with API key f5f7e08ed744e6bfb9b49154cfee204b0c14982a
+2024-07-05 20:16:41,509 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\testUser\landingpage.png.enc for user testUser
+2024-07-05 20:16:42,198 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\testUser\landingpage.png.enc for user testUser
+2024-07-05 20:16:42,882 - Handler.DBHandler - INFO - Updated used space for user testUser to 48925
+2024-07-05 20:16:42,946 - Handler.DBHandler - INFO - Updated allocated space for user testUser to 48925
+2024-07-05 20:16:42,946 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:16:42] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:18:33,266 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-07-05 20:18:33,325 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:18:33,904 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:18:33,905 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:18:37,362 - Handler.DBHandler - INFO - Retrieved user with API key f5f7e08ed744e6bfb9b49154cfee204b0c14982a
+2024-07-05 20:18:37,363 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\testUser\landingpage.png.enc for user testUser
+2024-07-05 20:18:39,021 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\testUser\landingpage.png.enc for user testUser
+2024-07-05 20:18:44,109 - Handler.DBHandler - INFO - Updated used space for user testUser to 48925
+2024-07-05 20:18:45,264 - Handler.DBHandler - INFO - Updated allocated space for user testUser to 48925
+2024-07-05 20:18:45,264 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:18:45] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:18:50,677 - Handler.DBHandler - INFO - Retrieved user with API key f5f7e08ed744e6bfb9b49154cfee204b0c14982a
+2024-07-05 20:18:50,678 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\testUser\landingpage.png.enc for user testUser
+2024-07-05 20:18:52,347 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\testUser\landingpage.png.enc for user testUser
+2024-07-05 20:18:54,162 - Handler.DBHandler - INFO - Updated used space for user testUser to 48925
+2024-07-05 20:18:54,965 - Handler.DBHandler - INFO - Updated allocated space for user testUser to 48925
+2024-07-05 20:18:54,965 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:18:54] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:19:00,827 - Handler.DBHandler - INFO - Retrieved user with API key f5f7e08ed744e6bfb9b49154cfee204b0c14982a
+2024-07-05 20:19:00,830 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\testUser\landingpage2.png.enc for user testUser not found
+2024-07-05 20:19:04,918 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\testUser\landingpage2.png.enc for user testUser
+2024-07-05 20:19:04,919 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:19:04] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2024-07-05 20:19:11,741 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:19:11] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-07-05 20:19:12,006 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:19:12] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-07-05 20:19:12,886 - Handler.DBHandler - WARNING - User dev-nolant not found
+2024-07-05 20:19:14,517 - Handler.DBHandler - ERROR - Integrity error adding user dev-nolant: UNIQUE constraint failed: users.user_key
+2024-07-05 20:19:14,538 - API.api - INFO - Partition Created
+2024-07-05 20:19:15,540 - Handler.DBHandler - INFO - Retrieved user dev-nolant
+2024-07-05 20:19:15,540 - API.api - INFO - User dev-nolant retrieved successfully after creation
+2024-07-05 20:19:15,541 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:19:15] "GET /login/authorized?code=5cb61d37f304ced9b425 HTTP/1.1" 200 -
+2024-07-05 20:19:24,444 - Handler.DBHandler - INFO - Retrieved user with API key c43917267d53f4e29116501b4aab3deccd775779
+2024-07-05 20:19:24,445 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant not found
+2024-07-05 20:19:25,282 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:19:27,165 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 48925
+2024-07-05 20:19:29,601 - Handler.DBHandler - INFO - Updated allocated space for user dev-nolant to 48925
+2024-07-05 20:19:29,602 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:19:29] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:19:34,613 - Handler.DBHandler - INFO - Retrieved user with API key c43917267d53f4e29116501b4aab3deccd775779
+2024-07-05 20:19:34,614 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:19:36,745 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:19:37,724 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 48925
+2024-07-05 20:19:40,222 - Handler.DBHandler - INFO - Updated allocated space for user dev-nolant to 48925
+2024-07-05 20:19:40,223 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:19:40] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:19:52,148 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-07-05 20:19:52,222 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:19:52,802 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:19:52,804 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:20:21,316 - Handler.DBHandler - INFO - Retrieved user with API key c43917267d53f4e29116501b4aab3deccd775779
+2024-07-05 20:20:21,317 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:20:23,055 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:20:23,208 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 48925
+2024-07-05 20:20:25,520 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 48925
+2024-07-05 20:20:25,521 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:20:25] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:20:36,251 - Handler.DBHandler - INFO - Retrieved user with API key c43917267d53f4e29116501b4aab3deccd775779
+2024-07-05 20:20:36,252 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:20:37,450 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-07-05 20:20:37,509 - Handler.DBHandler - INFO - Total used space for user dev-nolant: 48925
+2024-07-05 20:20:38,964 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 48925
+2024-07-05 20:20:38,964 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:20:38] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:20:45,535 - Handler.DBHandler - INFO - Retrieved user with API key c43917267d53f4e29116501b4aab3deccd775779
+2024-07-05 20:20:45,538 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant not found
+2024-07-05 20:20:47,182 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage2.png.enc for user dev-nolant
+2024-07-05 20:20:47,207 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:20:47] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2024-07-05 20:21:56,819 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-07-05 20:21:56,896 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:21:58,489 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:21:58,490 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:22:11,723 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-05 20:22:11,723 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-05 20:22:11,724 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:22:12,253 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:22:12,254 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:22:49,680 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-05 20:22:50,346 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-05 20:22:50,347 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:22:52,106 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:22:52,107 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:23:04,021 - Handler.DBHandler - INFO - Retrieved user with API key 60f68768806800ffde9afd5542957d9301defdeb
+2024-07-05 20:23:04,023 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\testUser\landingpage.png.enc for user testUser not found
+2024-07-05 20:23:06,945 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\testUser\landingpage.png.enc for user testUser
+2024-07-05 20:23:10,613 - Handler.DBHandler - INFO - Updated used space for user testUser to 48925
+2024-07-05 20:23:15,106 - Handler.DBHandler - INFO - Updated allocated space for user testUser to 48925
+2024-07-05 20:23:15,107 - werkzeug - INFO - 127.0.0.1 - - [05/Jul/2024 20:23:15] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-07-05 20:23:54,585 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-07-05 20:23:54,644 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:23:55,186 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:23:55,188 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:27:41,036 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\texthw.py', reloading
+2024-07-05 20:27:41,098 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:27:41,632 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:27:41,633 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:28:55,169 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\texthw.py', reloading
+2024-07-05 20:28:55,253 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:28:55,791 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:28:55,793 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:30:51,753 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\texthw.py', reloading
+2024-07-05 20:30:51,810 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:30:52,337 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:30:52,339 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:31:01,718 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\texthw.py', reloading
+2024-07-05 20:31:01,774 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:31:02,303 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:31:02,304 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:31:08,579 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\texthw.py', reloading
+2024-07-05 20:31:08,634 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:31:09,155 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:31:09,156 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:31:33,036 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\texthw.py', reloading
+2024-07-05 20:31:33,095 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:31:33,619 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:31:33,621 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:31:46,153 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\texthw.py', reloading
+2024-07-05 20:31:46,214 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:31:46,743 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:31:46,744 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:38:41,806 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\texthw.py', reloading
+2024-07-05 20:38:41,876 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:38:42,400 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:38:42,402 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:38:57,014 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\texthw.py', reloading
+2024-07-05 20:38:57,078 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:38:57,609 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:38:57,610 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-07-05 20:42:15,393 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\Utilities\\FileEncryptor.py', reloading
+2024-07-05 20:42:15,450 - werkzeug - INFO -  * Restarting with stat
+2024-07-05 20:42:15,982 - werkzeug - WARNING -  * Debugger is active!
+2024-07-05 20:42:15,983 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-08-06 21:49:10,812 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-06 21:49:10,870 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-08-06 21:49:10,884 - werkzeug - INFO -  * Restarting with stat
+2024-08-06 21:49:11,528 - werkzeug - WARNING -  * Debugger is active!
+2024-08-06 21:49:11,539 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-08-06 21:49:22,068 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 21:49:22] "[32mGET /login HTTP/1.1[0m" 302 -
+2024-08-06 21:49:39,019 - Handler.DBHandler - WARNING - User dev-nolant not found
+2024-08-06 21:49:39,230 - Handler.DBHandler - ERROR - Integrity error adding user dev-nolant: UNIQUE constraint failed: users.user_key
+2024-08-06 21:49:39,230 - API.api - INFO - Partition Created
+2024-08-06 21:49:40,231 - Handler.DBHandler - INFO - Retrieved user dev-nolant
+2024-08-06 21:49:40,232 - API.api - INFO - User dev-nolant retrieved successfully after creation
+2024-08-06 21:49:40,232 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 21:49:40] "GET /login/authorized?code=4425d8b1d2dc0b61621c HTTP/1.1" 200 -
+2024-08-06 21:49:40,348 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 21:49:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-08-06 21:51:03,804 - Handler.DBHandler - INFO - Retrieved user with API key a01d1e2d1812fcd2f7ecb85bf107d64ec5247193
+2024-08-06 21:51:03,806 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant not found
+2024-08-06 21:51:04,271 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-08-06 21:51:05,776 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 48925
+2024-08-06 21:51:05,983 - Handler.DBHandler - INFO - Updated allocated space for user dev-nolant to 48925
+2024-08-06 21:51:05,983 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 21:51:05] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-08-06 21:54:20,945 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-08-06 21:54:21,113 - werkzeug - INFO -  * Restarting with stat
+2024-08-06 21:54:21,702 - werkzeug - WARNING -  * Debugger is active!
+2024-08-06 21:54:21,705 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-08-06 21:57:22,540 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-08-06 21:57:22,610 - werkzeug - INFO -  * Restarting with stat
+2024-08-06 21:57:23,186 - werkzeug - WARNING -  * Debugger is active!
+2024-08-06 21:57:23,190 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-08-06 21:57:31,372 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-06 21:57:31,373 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-08-06 21:57:31,374 - werkzeug - INFO -  * Restarting with stat
+2024-08-06 21:57:31,926 - werkzeug - WARNING -  * Debugger is active!
+2024-08-06 21:57:31,929 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-08-06 21:57:53,788 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-06 21:57:53,788 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-08-06 21:57:53,789 - werkzeug - INFO -  * Restarting with stat
+2024-08-06 21:57:54,349 - werkzeug - WARNING -  * Debugger is active!
+2024-08-06 21:57:54,352 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-08-06 21:57:58,538 - Handler.DBHandler - INFO - Retrieved user with API key a01d1e2d1812fcd2f7ecb85bf107d64ec5247193
+2024-08-06 21:57:58,540 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-08-06 21:57:58,895 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\landingpage.png.enc for user dev-nolant
+2024-08-06 21:57:59,325 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 48925
+2024-08-06 21:57:59,325 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 21:57:59] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-08-06 21:58:38,705 - Handler.DBHandler - INFO - Retrieved user with API key a01d1e2d1812fcd2f7ecb85bf107d64ec5247193
+2024-08-06 21:58:38,706 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\message.txt.enc for user dev-nolant not found
+2024-08-06 21:58:39,127 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\message.txt.enc for user dev-nolant
+2024-08-06 21:58:39,598 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 54441
+2024-08-06 21:58:39,599 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 21:58:39] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-08-06 21:58:53,545 - Handler.DBHandler - INFO - Retrieved user with API key a01d1e2d1812fcd2f7ecb85bf107d64ec5247193
+2024-08-06 21:58:53,546 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\message.txt.enc for user dev-nolant
+2024-08-06 21:58:54,247 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\message.txt.enc for user dev-nolant
+2024-08-06 21:58:54,502 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 54441
+2024-08-06 21:58:54,503 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 21:58:54] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-08-06 21:59:21,504 - Handler.DBHandler - INFO - Retrieved user with API key a01d1e2d1812fcd2f7ecb85bf107d64ec5247193
+2024-08-06 21:59:21,505 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\message.txt.enc for user dev-nolant
+2024-08-06 21:59:21,776 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\message.txt.enc for user dev-nolant
+2024-08-06 21:59:22,242 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 54466
+2024-08-06 21:59:22,242 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 21:59:22] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-08-06 21:59:34,385 - Handler.DBHandler - INFO - Retrieved user with API key a01d1e2d1812fcd2f7ecb85bf107d64ec5247193
+2024-08-06 21:59:34,385 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\message.txt.enc for user dev-nolant
+2024-08-06 21:59:34,655 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\message.txt.enc for user dev-nolant
+2024-08-06 21:59:35,095 - Handler.DBHandler - INFO - Updated used space for user dev-nolant to 54441
+2024-08-06 21:59:35,095 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 21:59:35] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
+2024-08-06 22:00:03,463 - Handler.DBHandler - INFO - Retrieved user with API key a01d1e2d1812fcd2f7ecb85bf107d64ec5247193
+2024-08-06 22:00:03,464 - Handler.DBHandler - INFO - Retrieved file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\message.txt.enc for user dev-nolant
+2024-08-06 22:00:03,860 - Handler.DBHandler - INFO - Updated file Y:\nolan\Documents\CloudPartitioning\uploads\dev-nolant\message.txt.enc for user dev-nolant
+2024-08-06 22:00:03,860 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 22:00:03] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2024-08-06 22:00:40,339 - werkzeug - INFO -  * Detected change in 'Y:\\nolan\\Documents\\CloudPartitioning\\API\\api.py', reloading
+2024-08-06 22:00:40,420 - werkzeug - INFO -  * Restarting with stat
+2024-08-06 22:00:41,021 - werkzeug - WARNING -  * Debugger is active!
+2024-08-06 22:00:41,024 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-08-06 22:04:39,124 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-06 22:04:39,125 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-08-06 22:04:39,126 - werkzeug - INFO -  * Restarting with stat
+2024-08-06 22:04:39,659 - werkzeug - WARNING -  * Debugger is active!
+2024-08-06 22:04:39,662 - werkzeug - INFO -  * Debugger PIN: 624-971-770
+2024-08-06 22:05:03,370 - Handler.DBHandler - INFO - Retrieved user with API key 10f3fde88b8b730ce28beb66ac3d90e6da114101
+2024-08-06 22:05:03,372 - Handler.DBHandler - WARNING - File Y:\nolan\Documents\CloudPartitioning\uploads\testUser\message.txt.enc for user testUser not found
+2024-08-06 22:05:04,259 - Handler.DBHandler - INFO - Added file Y:\nolan\Documents\CloudPartitioning\uploads\testUser\message.txt.enc for user testUser
+2024-08-06 22:05:04,476 - Handler.DBHandler - INFO - Updated used space for user testUser to 5516
+2024-08-06 22:05:04,476 - werkzeug - INFO - 127.0.0.1 - - [06/Aug/2024 22:05:04] "[35m[1mPOST /upload HTTP/1.1[0m" 201 -
