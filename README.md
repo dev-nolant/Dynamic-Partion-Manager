@@ -5,7 +5,7 @@
 I created this project to manage partitions locally within a folder. The idea is to help users reserve space for their personal servers with proper organization. Although the project is not fully complete and might not reach the intended use in the near future (as I've shifted my focus to Embedded Systems and Rust Development), it still offers a functional foundation for managing partitions.
 
 ## Project Goals
-- Utilize minimal to no external imports (no PIP required imports), allowing for easy transfer and setup on any system.
+- Utilize only necessary imports (no PIP required imports), allowing for easy transfer and setup on any system.
 - Developed and tested with Python 3.10.13.
 - Open for contributions and feedback through pull requests and issues.
 
