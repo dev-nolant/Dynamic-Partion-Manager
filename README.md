@@ -5,7 +5,7 @@
 I created this project to manage partitions locally within a folder. The idea is to help users reserve space for their personal servers with proper organization. Although the project is not fully complete and might not reach the intended use in the near future (as I've shifted my focus to Embedded Systems and Rust Development), it still offers a functional foundation for managing partitions.
 
 ## Project Goals
-- Utilize only necessary imports (no PIP required imports), allowing for easy transfer and setup on any system.
+- Utilize only necessary imports, allowing for easy transfer and setup on any system.
 - Developed and tested with Python 3.10.13.
 - Open for contributions and feedback through pull requests and issues.
 
@@ -17,6 +17,21 @@ Clone the repository and navigate to the project directory:
 git clone https://github.com/dev-nolant/partition-manager-dev.git
 cd partition-manager-dev
 ```
+
+Install Requirements
+```bash
+pip install -r requirements.txt
+```
+
+Update .env
+1. Change env.example to .env. Replace CLIENT_ID and SECRET for GitHub with your GitHub client secret and ID.
+2. Generate a secret key given the URL in the .env for your database.
+3. OPTIONAL: Update if you want partitions/configs to be in the CWD and if you want a different database name. I recommend you leave than as is.
+4. Run start.bat (windows) other distributions may come if popularity grows. And follow the steps. I recommend opening a CMD or Powershell window, and running the batch file via that window. Easier for debugging if anything goes wrong.
+
+NOTE
+* There is built-in logging, this can be disabled in api.py under (root)/API/api.py. Just change LOGGING_ENABLED=True to False. It is __ENABLED by default__.
+
 
 ### Usage Example
 Here's a simple example to demonstrate how to use the `PartitionManager` and `BytesManager` classes:
