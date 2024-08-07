@@ -31,6 +31,14 @@ Update .env
 
 NOTE
 * There is built-in logging, this can be disabled in api.py under (root)/API/api.py. Just change LOGGING_ENABLED=True to False. It is __ENABLED by default__.
+* This project currently requires the GitHub API for OAuthorization. It's implemented in the system to allow admins and users to sign up.
+
+TODO (No Specific Order)
+- [x] There is currently a broken partition allocation section that causes recessive allocated space regardless of upload.
+- [ ] There is no file deletion option.
+- [ ] There currently is no ROLE system in-place, but that should be coming up momentarily. Currently, everyone is visitor role, and only has access to their own data.
+- [ ] There will be an update with USER_ID systems being implemented for better file tracing and user handling.
+- [ ] Moderation is expected to be added promptly after a ROLE system is implemented.
 
 
 ### Usage Example
