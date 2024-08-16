@@ -171,6 +171,24 @@ class UserDatabase:
                 f"Error adding file {file_path} for user {user_key}: {e}")
         finally:
             connection.close()
+        
+    
+    def remove_user_file(self, user_key, file_path):
+        try:
+            connection = self.get_connection()
+            cursor = connection.cursor()
+            cursor.execute('''
+                DELETE FROM user_files
+                WHERE user_key = ? AND file_path = ?
+            ''', (user_key, file_path))
+            connection.commit()
+            logger.info(f"Removed file {file_path} for user {user_key}")
+        except Exception as e:
+            logger.error(
+                f"Error removing file {file_path} for user {user_key}: {e}")
+        finally:
+            connection.close()
+
 
     def update_user_file(self, user_key, file_path, file_size):
         upload_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
