@@ -254,6 +254,40 @@ def upload_file(user):
     else:
         return jsonify({'message': 'File type not allowed'}), 400
 
+@app.route('/delete', methods=['DELETE'])
+@verify_api_token
+def delete_file(user):
+    file_name = request.json.get('file_name')
+    if not file_name:
+        return jsonify({'message': 'File name is required'}), 400
+
+    user_partition_path = os.path.join(
+        app.config['UPLOAD_FOLDER'], user['user_key'])
+    encrypted_file_path = os.path.join(user_partition_path, secure_filename(file_name) + '.enc')
+
+    # Check if the file is registered in the database
+    existing_file = user_db.get_user_file(user['user_key'], encrypted_file_path)
+    if not existing_file:
+        return jsonify({'message': 'File not found'}), 404
+
+    file_size = existing_file['file_size']
+
+    # Remove the file from the file system
+    if os.path.exists(encrypted_file_path):
+        os.remove(encrypted_file_path)
+    else:
+        return jsonify({'message': 'File not found on the server'}), 404
+
+    # Update the user's used space
+    used_space = user['used_space'] - file_size
+    user_db.update_used_space(user['user_key'], used_space)
+
+    # Remove the file entry from the database
+    user_db.remove_user_file(user['user_key'], encrypted_file_path)
+
+    return jsonify({'message': 'File successfully deleted', 'allocated_space': user['allocated_space'], 'used_space': used_space}), 200
+
+
 # File download endpoint
 
 
@@ -291,5 +325,6 @@ if __name__ == '__main__':
     with app.app_context():
         db.create_all()
     app.run(debug=True)
-# curl -X GET -H "API-Token: a01d1e2d1812fcd2f7ecb85bf107d64ec5247193" -o "landingpage.png" http://localhost:5000/download/landingpage.png
-# curl -X POST -H "API-Token: a01d1e2d1812fcd2f7ecb85bf107d64ec5247193" -F "file=@Z:\Downloads\landingpage.png" http://localhost:5000/upload
+# curl -X GET -H "API-Token: API_KEY" -o "landingpage.png" http://localhost:5000/download/landingpage.png
+# curl -X POST -H "API-Token: API_KEY" -F "file=@Z:\Downloads\landingpage.png" http://localhost:5000/upload
+# curl -X DELETE -H "API-Token: API_KEY" -H "Content-Type: application/json" -d "{\"file_name\": \"landingpage.png\"}" http://localhost:5000/delete
