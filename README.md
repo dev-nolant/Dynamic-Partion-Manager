@@ -34,8 +34,8 @@ NOTE
 * This project currently requires the GitHub API for OAuthorization. It's implemented in the system to allow admins and users to sign up.
 
 TODO (No Specific Order)
-- [x] There is currently a broken partition allocation section that causes recessive allocated space regardless of upload.
-- [ ] There is no file deletion option.
+- [x] There is currently a broken partition allocation section that causes recessive allocated space regardless of upload. (Fixed)
+- [x] There is no file deletion option. (Added)
 - [ ] There currently is no ROLE system in-place, but that should be coming up momentarily. Currently, everyone is visitor role, and only has access to their own data.
 - [ ] There will be an update with USER_ID systems being implemented for better file tracing and user handling.
 - [ ] Moderation is expected to be added promptly after a ROLE system is implemented.
@@ -54,6 +54,18 @@ partManager = PartitionManager()
 
 # Modify a partition
 partManager.modifyPartition("testUser", bytemanager.ByteDetection("1gb"), "SIZETO")
+```
+
+Console
+```bash
+:: To Upload a File
+curl -X POST -H "API-Token: API_KEY" -F "file=@Z:\Downloads\landingpage.png" http://localhost:5000/upload
+
+:: To Get File
+curl -X GET -H "API-Token: API_KEY" -o "landingpage.png" http://localhost:5000/download/landingpage.png
+
+:: To Delete File
+curl -X DELETE -H "API-Token: API_KEY" -H "Content-Type: application/json" -d "{\"file_name\": \"landingpage.png\"}" http://localhost:5000/delete
 ```
 
 ### External Usage
